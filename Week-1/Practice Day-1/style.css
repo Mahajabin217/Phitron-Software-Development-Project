@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 715px;
+    background-color: white;
+    background-image: url('images/security_background.jpg');
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position:center;
+}
+
+/* ------- Navbar Part ------- */
+
+.logo{
+    width: 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    color: orange;
+}
+
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.menu-container{
+    display: flex;
+    gap: 50px;
+}
+
+.hero-man{
+    width: 400px;
+    padding-bottom: 0%;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-side{
+    width: 20%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.right-side{
+    width: 30%;
+    margin: auto;
+}
+
+.head-para{
+    color: orange;
+}
+
+.head{
+    color: white;
+    font-size: 30px;
+}
+
+.head-btn{
+    color: black;
+    background-color:orange;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ------- Logo Part ------- */
+
+.logo-container{
+    background-color:lightgray;
+    padding: 20px;
+}
+
+.all-logo{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.logos{
+    width: 100px;
+    height: auto;
+}
+
+/* -------- Service Part ------- */
+
+.service-container{
+    padding: 70px;
+}
+*
+.service-head{
+    text-align: center;
+}
+
+.service{
+    font-size: 50px;
+}
+
+.serve-img{
+    width: 200px;
+}
+
+.service-card{
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 2;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.box1{
+    width: 85px;
+    margin-top: 10px;
+}
+
+.serve-des{
+    margin: 10px;
+}
+
+.title-service{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* --------- Contact Part --------*/
+
+.contact-img{
+    width: 600px;
+    height: 600px;
+    padding: 0px 50px;
+}
+
+.contact-btn{
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+h1{
+    font-size: 40px;
+}
+.call-img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info{
+    padding: 10px 40px;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    line-height: 1.5;
+}
+.call-sec{
+    display:flex;
+}
+
+/*--------- Footer Part ---------*/
+
+.footer-section{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1550px;
+    height: 300px;
+    text-align: center;
+}
+
+.footer-img{
+    width: 30px;
+}
+
+.footer-btn{
+    padding: 10px 10px;
+    background-color: lightgray;
+}
+
+/* -------- Responsive Part -------- */
+
+@media only screen and (min-width: 400px) and (max-width: 767px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px){
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1600px){
+    body{
+        background-color: gray;
+    }
+}

@@ -1,0 +1,220 @@
+/* -------- Navbar Part -------- */
+
+
+.container-fluid{
+    padding: 20px;
+}
+
+.ticket-button{
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.ticket-button:hover{
+    background-color: orange;
+}
+
+/* --------- Sliding Part --------- */
+
+.carousel-inner{
+    padding-top: 30px;
+}
+
+
+/* ---------- Club Part ---------- */
+
+.club{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* --------- Progress Bar Part --------- */
+
+.progress-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+}
+
+.progress-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red-circle{
+    width: 100px;
+    height: 100px;
+    stroke: red;
+}
+
+.green-circle{
+    width: 100px;
+    height: 100px;
+    stroke: green;
+}
+
+.yellow-circle{
+    width: 100px;
+    height: 100px;
+    stroke: yellow;
+}
+
+.blue-circle{
+    width: 100px;
+    height: 100px;
+    stroke: blue;
+}
+
+/* --------- Program Part --------- */
+
+.program{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* ----------- Card Part ---------- */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-1{
+    background-image: url('Images/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+}
+
+.card-2{
+    background-image: url('Images/3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+}
+
+.big-card{
+    background-image: url('Images/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1220px;
+    height: 450px;
+}
+
+.card-body{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* --------- Product Part --------- */
+
+.product{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* ---------- Product Card Part ---------- */
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .price {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .rating, .views, .sold {
+    color: #f0ad4e;
+    font-size: 0.9rem;
+  }
+
+
+/* --------- Client Question Part --------- */
+
+.client{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.img-fluid {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+  
+.accordion-button{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* --------- Touch Part --------- */
+
+.touch{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* ------------ Social Media Part ---------- */
+
+.media{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.fa-brands{
+    width: 50px;
+}
+
+/* --------- Footer Part ---------- */
+
+.footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 1550px;
+    height: 300px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: left;
+    gap: 100px;
+}

@@ -1,0 +1,24 @@
+/* ------------ Navbar Part ------------ */
+body{
+    background-color: black;
+    color: white;
+}
+
+.resume-button{
+    background-color: #0DCAF0;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* ----------- Hero Section ----------- */
+
+.hero-section{
+    padding: 80px;
+}
+
+.hero-section h1{
+    color: #0DCAF0;
+}

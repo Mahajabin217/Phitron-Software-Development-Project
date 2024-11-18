@@ -1,11 +1,11 @@
 /* -------- Navbar Part -------- */
 
 
-.container-fluid{
+.container-fluid {
     padding: 20px;
 }
 
-.ticket-button{
+.ticket-button {
     background-color: orangered;
     color: white;
     font-size: 15px;
@@ -14,20 +14,20 @@
     text-decoration: none;
 }
 
-.ticket-button:hover{
+.ticket-button:hover {
     background-color: orange;
 }
 
 /* --------- Sliding Part --------- */
 
-.carousel-inner{
+.carousel-inner {
     padding-top: 30px;
 }
 
 
 /* ---------- Club Part ---------- */
 
-.club{
+.club {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -35,38 +35,38 @@
 
 /* --------- Progress Bar Part --------- */
 
-.progress-container{
+.progress-container {
     display: flex;
     justify-content: space-around;
     padding: 50px;
     text-align: center;
 }
 
-.progress-item{
+.progress-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.red-circle{
+.red-circle {
     width: 100px;
     height: 100px;
     stroke: red;
 }
 
-.green-circle{
+.green-circle {
     width: 100px;
     height: 100px;
     stroke: green;
 }
 
-.yellow-circle{
+.yellow-circle {
     width: 100px;
     height: 100px;
     stroke: yellow;
 }
 
-.blue-circle{
+.blue-circle {
     width: 100px;
     height: 100px;
     stroke: blue;
@@ -74,7 +74,7 @@
 
 /* --------- Program Part --------- */
 
-.program{
+.program {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -82,14 +82,14 @@
 
 /* ----------- Card Part ---------- */
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.card-1{
+.card-1 {
     background-image: url('Images/2.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@
     height: 300px;
 }
 
-.card-2{
+.card-2 {
     background-image: url('Images/3.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@
     height: 300px;
 }
 
-.big-card{
+.big-card {
     background-image: url('Images/4.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,13 +113,13 @@
     height: 450px;
 }
 
-.card-body{
+.card-body {
     color: white;
     text-decoration: none;
     text-align: left;
 }
 
-.btn{
+.btn {
     padding: 10px 20px;
     background-color: orangered;
     color: white;
@@ -131,7 +131,7 @@
 
 /* --------- Product Part --------- */
 
-.product{
+.product {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -142,31 +142,33 @@
 .card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-weight: bold;
     font-size: 1.2rem;
-  }
-  
-  .card-text {
+}
+
+.card-text {
     color: #6c757d;
-  }
-  
-  .price {
+}
+
+.price {
     color: red;
     font-weight: bold;
-  }
-  
-  .rating, .views, .sold {
+}
+
+.rating,
+.views,
+.sold {
     color: #f0ad4e;
     font-size: 0.9rem;
-  }
+}
 
 
 /* --------- Client Question Part --------- */
 
-.client{
+.client {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -177,8 +179,8 @@
     height: 450px;
     border-radius: 10px;
 }
-  
-.accordion-button{
+
+.accordion-button {
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -186,7 +188,7 @@
 
 /* --------- Touch Part --------- */
 
-.touch{
+.touch {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -194,19 +196,19 @@
 
 /* ------------ Social Media Part ---------- */
 
-.media{
+.media {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
 }
 
-.fa-brands{
+.fa-brands {
     width: 50px;
 }
 
 /* --------- Footer Part ---------- */
 
-.footer{
+.footer {
     color: white;
     background-color: black;
     display: flex;

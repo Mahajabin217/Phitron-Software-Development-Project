@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+.search {
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border-color: gray;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.searchBtn {
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px 8px gray;
+    ;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.meal-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+#itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

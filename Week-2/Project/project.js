@@ -61,11 +61,11 @@ const updateTotal = () => {
 
 // Get a Single Product:
 
-const singleProduct=(id)=>{
+const singleProduct = (id) => {
     console.log(id);
     fetch('https://fakestoreapi.com/products/${id}')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
+        .then(res => res.json())
+        .then(json => console.log(json))
 }
 
 loadAllProduct();
